@@ -1,0 +1,145 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Gill Sans', sans-serif;
+}
+
+body {
+    background: white;
+}
+
+
+/* Navbar Start */
+
+.navbar {
+    background-color: #800000;
+}
+
+.navbar-nav a {
+    font-size: 17px;
+    text-transform: uppercase;
+    color: black;
+    font-weight: 540;
+}
+
+.navbar-nav .nav-link {
+    font-size: 17px;
+    color: #FFC700;
+}
+
+.navbar-nav .nav-link:focus,
+.navbar-nav .nav-link:hover {
+    color: #D2F7D6;
+}
+
+.navbar-toggler {
+    padding: 1px 5px;
+    font-size: 15px;
+    line-height: 0.3;
+    background: #fff;
+}
+
+.logo {
+    width: 18%;
+    margin-left: 5px;
+}
+
+.content {
+    min-height: 100vh;
+    width: 100%;
+}
+
+.img-area {
+    height: 200px;
+    overflow: hidden;
+}
+
+.img-area img {
+    object-fit: cover;
+    height: 100%;
+    width: 100%;
+}
+
+
+/* Navbar End */
+
+
+/* Bottom Tab Start */
+
+.bi,
+.nav__name {
+    color: black;
+    font-size: .9rem;
+}
+
+.nav__list {
+    display: flex;
+    gap: 1rem;
+    margin: 15px 40px 0 0;
+}
+
+.nav__icon {
+    font-size: 1.5rem;
+}
+
+.bottom-navigation {
+    display: none;
+}
+
+
+/* Bottom tab End */
+
+
+/* Images Sizes Start */
+
+.img-area {
+    position: relative;
+}
+
+.img-area .fish {
+    width: 100%;
+    height: 40vh;
+    border-radius: 5px;
+}
+
+.img-area .overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.7);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 5px;
+    z-index: 1;
+    opacity: 0;
+    transition: opacity 0.3s ease;
+}
+
+.img-area:hover .overlay {
+    opacity: 1;
+}
+
+.img-area .overlay .btn {
+    font-size: 13px;
+}
+
+.card {
+    border-radius: 5px;
+    background-color: hsl(0, 0%, 99.1%);
+    border: none;
+    margin-bottom: 25px;
+}
+
+.toast {
+    opacity: 1 !important;
+    border: none !important;
+}
+
+
+/* Button End */

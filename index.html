@@ -1,0 +1,451 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The Hotel Fortuna</title>
+
+    <!-- DOWNLOADED CSS -->
+    <link rel="stylesheet" href="bootstrap/boots.css">
+    <link rel="stylesheet" href="fontawesome/all.min.css">
+    <link rel="stylesheet" href="fontawesome/fontawesome.min.css">
+    <link rel="stylesheet" href="toaster/toastr.min.css">
+
+    <!-- CUSTOM CSS -->
+    <link rel="stylesheet" href="./css/style/landing.css">
+    <link rel="stylesheet" href="./css/style/global.css">
+    <link rel="stylesheet" href="./css/style/responsive.css">
+    <link rel="icon" type="image/x-icon" href="images/logo.png">
+
+</head>
+
+<body>
+    <!-- Navbar Start -->
+    <nav class="navbar navbar-expand-lg fixed-top">
+        <div class="container">
+            <a class="navbar-brand" href="#"><img src="images/logo.png" class="logo img-fluid" alt="logo"></a>
+            <button aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation" class="navbar-toggler" data-bs-target="#navbarSupportedContent" data-bs-toggle="collapse" type="button">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav ms-auto mb-2 mb-lg-0 text-uppercase">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#rooms">Rooms</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#about">About Us</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#services">Services</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <!-- Navbar End -->
+
+    <!-- Carousel Start -->
+    <div class="slider">
+        <div class="carousel slide" data-bs-ride="carousel" id="carouselExampleIndicators">
+            <div class="carousel-indicators">
+                <button aria-label="Slide 1" class="active" data-bs-slide-to="0" data-bs-target="#carouselExampleIndicators" type="button"></button> <button aria-label="Slide 2" data-bs-slide-to="1" data-bs-target="#carouselExampleIndicators" type="button"></button>                <button aria-label="Slide 3" data-bs-slide-to="2" data-bs-target="#carouselExampleIndicators" type="button"></button>
+            </div>
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img alt="..." class="d-block w-100 h-100 object-fit-cover" src="images/caro1.jpg">
+                    <div class="carousel-caption">
+                        <h5>The Hotel Fortuna</h5>
+                        <p>Experience the epitome of culinary craftsmanship at Hotel Fortuna Bakery, where each confection is a symphony of flavor and elegance.</p>
+                        <button class="btn-started"><a
+                                    class="text-decoration-none"
+                                    style="color: #800000;"
+                                    href="#footer">Book
+                                    Now</a></button>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img alt="..." class="d-block w-100 h-100 object-fit-cover" src="images/caro2.jpg">
+                    <div class="carousel-caption">
+                        <h5>The Hotel Fortuna</h5>
+                        <p>Experience the epitome of culinary craftsmanship at Hotel Fortuna Bakery, where each confection is a symphony of flavor and elegance.</p>
+                        <button class="btn-started"><a
+                                    class="text-decoration-none"
+                                    style="color: #800000;"
+                                    href="#footer">Book
+                                    Now</a></button>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img alt="..." class="d-block w-100 h-100 object-fit-cover" src="images/caro3.jpg">
+                    <div class="carousel-caption">
+                        <h5>The Hotel Fortuna</h5>
+                        <p>Experience the epitome of culinary craftsmanship at Hotel Fortuna Bakery, where each confection is a symphony of flavor and elegance.</p>
+                        <button class="btn-started"><a
+                                    class="text-decoration-none"
+                                    style="color: #800000;"
+                                    href="#footer">Book
+                                    Now</a></button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Carousel End -->
+
+        <!-- Header Start -->
+        <section class="about section-padding">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-8 col-md-12 ps-lg-5 mt-md-5">
+                        <div class="about-text">
+                            <h2>Welcome to Hotel Fortuna</h2>
+                            <p class="text-start">An exquisite destination where opulence harmoniously blends with unparalleled comfort, ensuring each guest a uniquely memorable stay characterized by exceptional service, elegant accommodations, and a commitment to creating
+                                moments of pure indulgence and relaxation.
+                            </p>
+
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-12 col-12">
+                        <div class="about-img"><img alt class="img-fluid mx-4" src="images/logo.png"></div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- Header End -->
+
+        <!-- Room Start -->
+        <section class="rooms section-padding" id="rooms">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-12">
+                        <div class="section-header text-center pb-5">
+                            <h1 class="fw-bold">Our Rooms</h1>
+                            <small>“Come in as a guest, leave as
+                                    family”</small>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <!-- Single Room -->
+                    <div class="col-12 col-md-6 col-lg-4">
+                        <div class="card pb-2">
+                            <h3 class="text-center mt-1">Single Room</h3>
+                            <div class="card-body">
+                                <div class="img-area mb-2 text-center position-relative">
+                                    <img alt class="img-fluid w-100 rounded" src="images/single.jpg">
+                                    <button class="btn btn-sm btn-secondary btn-view-more position-absolute top-50 start-50 translate-middle" data-bs-toggle="modal" data-bs-target="#photoModal" data-room="Single Room">
+                                            View More
+                                        </button>
+                                </div>
+                                <hr>
+                                <p class="lead">Enjoy a cozy single room with all modern amenities.</p>
+                                <div class="price">
+                                    <h6 class="fw-bold">PHP 1,500</h6>
+                                </div>
+                                <button class="btn-started">
+                                        <a class="text-decoration-none"
+                                            style="color: #800000;"
+                                            href="#footer">Book Now</a>
+                                    </button>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Standard Room -->
+                    <div class="col-12 col-md-6 col-lg-4">
+                        <div class="card pb-2">
+                            <h3 class="text-center mt-1">Standard Room</h3>
+                            <div class="card-body">
+                                <div class="img-area mb-2 text-center position-relative">
+                                    <img alt class="img-fluid w-100 rounded" src="images/standard.jpg">
+                                    <button class="btn btn-sm btn-secondary btn-view-more position-absolute top-50 start-50 translate-middle" data-bs-toggle="modal" data-bs-target="#photoModal" data-room="Standard Room">
+                                            View More
+                                        </button>
+                                </div>
+                                <hr>
+                                <p class="lead">Enjoy a comfortable stay in our standard room.</p>
+                                <div class="price">
+                                    <h6 class="fw-bold">PHP 2,000</h6>
+                                </div>
+                                <button class="btn-started">
+                                        <a class="text-decoration-none"
+                                            style="color: #800000;"
+                                            href="#footer">Book Now</a>
+                                    </button>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Deluxe Room -->
+                    <div class="col-12 col-md-6 col-lg-4">
+                        <div class="card pb-2">
+                            <h3 class="text-center mt-1">Deluxe Room</h3>
+                            <div class="card-body">
+                                <div class="img-area mb-2 text-center position-relative">
+                                    <img alt class="img-fluid w-100 rounded" src="images/deluxe.jpg">
+                                    <button class="btn btn-sm btn-secondary btn-view-more position-absolute top-50 start-50 translate-middle" data-bs-toggle="modal" data-bs-target="#photoModal" data-room="Deluxe Room">
+                                            View More
+                                        </button>
+                                </div>
+                                <hr>
+                                <p class="lead">Indulge in luxury with our deluxe room.</p>
+                                <div class="price">
+                                    <h6 class="fw-bold">PHP 2,300</h6>
+                                </div>
+                                <button class="btn-started">
+                                        <a class="text-decoration-none"
+                                            style="color: #800000;"
+                                            href="#footer">Book Now</a>
+                                    </button>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Super Deluxe Room -->
+                    <div class="col-12 col-md-6 col-lg-4">
+                        <div class="card pb-2">
+                            <h3 class="text-center mt-1">Super Deluxe Room
+                            </h3>
+                            <div class="card-body">
+                                <div class="img-area mb-2 text-center position-relative">
+                                    <img alt class="img-fluid w-100 rounded" src="images/superdeluxe.jpg">
+                                    <button class="btn btn-sm btn-secondary btn-view-more position-absolute top-50 start-50 translate-middle" data-bs-toggle="modal" data-bs-target="#photoModal" data-room="Super Deluxe Room">
+                                            View More
+                                        </button>
+                                </div>
+                                <hr>
+                                <p class="lead">Experience unmatched luxury in our super deluxe room.</p>
+                                <div class="price">
+                                    <h6 class="fw-bold">PHP 2,800</h6>
+                                </div>
+                                <button class="btn-started">
+                                        <a class="text-decoration-none"
+                                            style="color: #800000;"
+                                            href="#footer">Book Now</a>
+                                    </button>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Super Deluxe with lanai Room -->
+                    <div class="col-12 col-md-6 col-lg-4">
+                        <div class="card pb-2">
+                            <h3 class="text-center mt-1">Super Deluxe with lanai Room</h3>
+                            <div class="card-body">
+                                <div class="img-area mb-2 text-center position-relative">
+                                    <img alt class="img-fluid w-100 rounded" src="images/lanai.jpg">
+                                    <button class="btn btn-sm btn-secondary btn-view-more position-absolute top-50 start-50 translate-middle" data-bs-toggle="modal" data-bs-target="#photoModal" data-room="Super Deluxe with lanai Room">
+                                            View More
+                                        </button>
+                                </div>
+                                <hr>
+                                <p class="lead">Enjoy the ultimate luxury with our super deluxe room with lanai.
+                                </p>
+                                <div class="price">
+                                    <h6 class="fw-bold">PHP 3,300</h6>
+                                </div>
+                                <button class="btn-started">
+                                        <a class="text-decoration-none"
+                                            style="color: #800000;"
+                                            href="#footer">Book Now</a>
+                                    </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- Room End -->
+
+        <!-- Modal for Pictures Start -->
+        <div class="modal fade" id="photoModal" tabindex="-1" aria-labelledby="photoModalLabel" aria-hidden="true">
+            <div class="modal-dialog modal-lg">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title" id="photoModalLabel">Additional Photos</h5>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body">
+                        <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="false">
+                            <div class="carousel-inner" id="carousel-inner">
+                                <!-- Carousel items will be dynamically added here -->
+                            </div>
+                            <button class="carousel-control-prev" type="button" id="prevBtn">
+                                    <span class="carousel-control-prev-icon"
+                                        aria-hidden="true"></span>
+                                    <span
+                                        class="visually-hidden">Previous</span>
+                                </button>
+                            <button class="carousel-control-next" type="button" id="nextBtn">
+                                    <span class="carousel-control-next-icon"
+                                        aria-hidden="true"></span>
+                                    <span class="visually-hidden">Next</span>
+                                </button>
+                        </div>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Modal for Pictures End -->
+
+        <!-- About Us Start -->
+        <section class="services section-padding" id="about">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-12">
+                        <div class="section-header text-center pb-5">
+                            <h1 class="fw-bold">About Us</h1>
+                            <small> Your Gateway to Exceptional Hospitality in Cebu City. </small>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-lg-4 col-md-12 col-12">
+                        <div class="about-img"><img alt class="img-fluid mx-4" src="images/logo.png"></div>
+                    </div>
+                    <div class="col-lg-8 col-md-12 ps-lg-5 mt-md-5">
+                        <div class="about-text">
+                            <h2>The Hotel Fortuna</h2>
+                            <p class="text-start">Welcome to Hotel Fortuna, your oasis in the heart of Cebu City. Nestled in a bustling urban landscape, Hotel Fortuna offers a blend of comfort, convenience, and warm Filipino hospitality. Whether you're traveling for business
+                                or leisure, our hotel is designed to cater to your every need, ensuring a memorable stay in Cebu. At Hotel Fortuna, we are committed to providing you with a delightful experience from the moment you step through our doors.
+                                With a focus on quality service and attention to detail, we strive to exceed your expectations and make your stay with us truly exceptional. Choose from our range of well-appointed rooms and suites, each thoughtfully designed
+                                to offer comfort and relaxation. Whether you're seeking a cozy retreat after a day of exploration or a luxurious space to unwind, our accommodations are tailored to meet your preferences.
+                            </p>
+
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+        <!-- About Us End -->
+
+        <!-- Services Start -->
+        <section class="services section-padding" id="services">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-12">
+                        <div class="section-header text-center pb-5">
+                            <h1 class="fw-bold">Services</h1>
+                            <small>Enjoy and Explore Our Services at Hotel Fortuna</small>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-12 col-md-12 col-lg-4">
+                        <div class="card pb-2">
+                            <div class="card-body">
+                                <div class="img-area mb-2 text-center">
+                                    <img class="card-img-top img-fluid" src="images/about1.jpg" alt="Image 1">
+                                </div>
+                                <hr>
+                                <p class="lead">Choose from a variety of well-appointed rooms and suites designed for comfort and relaxation.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 col-md-12 col-lg-4">
+                        <div class="card pb-2">
+                            <div class="card-body">
+                                <div class="img-area mb-2 text-center">
+                                    <img class="card-img-top img-fluid" src="images/about2.jpg" alt="Image 2">
+                                </div>
+                                <hr>
+                                <p class="lead">Fully equipped meeting and conference rooms for business gatherings and events.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 col-md-12 col-lg-4">
+                        <div class="card pb-2">
+                            <div class="card-body">
+                                <div class="img-area mb-2 text-center">
+                                    <img class="card-img-top img-fluid" src="images/about3.jpg" alt="Image 3">
+                                </div>
+                                <hr>
+                                <p class="lead">Professional event planning and catering services for weddings, conferences, and special occasions.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+            <a href="#" class="to-top d-flex align-items-center justify-content-center text-decoration-none  text-white" id="to-top">
+                <i class="fa-solid fa-chevron-up"></i>
+            </a>
+        </section>
+
+        <!-- Services End -->
+
+        <!-- Footer Start -->
+        <footer class="foot" id="footer">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-3 col-sm-6 mt-5">
+                        <div class="single-box">
+                            <img src="images/logo.png" class="logo w-50" alt>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-sm-6 mt-5">
+                        <div class="single-box">
+                            <h2>MENU</h2>
+                            <ul class="list-unstyled text-decoration-none text-white">
+                                <li><a class="text-decoration-none text-white" href="#">Home</a></li>
+                                <li><a class="text-decoration-none text-white" href="#rooms">Rooms</a></li>
+                                <li><a class="text-decoration-none text-white" href="#about">About Us</a></li>
+                                <li><a class="text-decoration-none text-white" href="#services">Services</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-sm-6 mt-5">
+                        <div class="single-box">
+                            <h4>We Accept:</h4>
+                            <ul class="list-unstyled">
+                                <li>Gcash</li>
+                                <li>Paymaya</li>
+                                <li>Credit Card</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-sm-6 mt-5">
+                        <div class="single-box">
+                            <h4>Follow Us:</h4>
+                            <p class="socials mb-4">
+                                <a href="https://www.facebook.com/cebuhotelfortuna">
+                                    <i class="fa fa-brands fa-facebook fa-lg"></i></a>
+                                <a href="https://www.tiktok.com/@msyhotelfortuna?lang=en">
+                                    <i class="fa fa-brands fa-tiktok fa-lg"></i></a>
+                                <a href="https://www.instagram.com/explore/locations/247401425668/hotel-fortuna/">
+                                    <i class="fa fa-brands fa-instagram fa-lg"></i></a>
+                            </p>
+                            <div>
+                                <h4>Contact Us</h4>
+                                <p><i class="fa-solid fa-phone"></i> 888-9008/ 09173188090/ 09237301881
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <hr>
+                    <p class="text-center mt-2">Copyright © 2024 . TheHotelFortuna. All Rights Reserved</p>
+                </div>
+            </div>
+        </footer>
+        <!-- Footer End -->
+
+        <!-- Custom JS -->
+        <script src="./plugins/bundle/collapse.js"></script>
+        <script src="./plugins/bundle/scroll.js"></script>
+        <script src="./plugins/bundle/pictures.js"></script>
+
+        <!-- Boostrap JS -->
+        <script src="toaster/toastr.min.js"></script>
+        <script src="bootstrap/boots.js"></script>
+
+</body>
+
+</html>

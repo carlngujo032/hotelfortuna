@@ -1,0 +1,138 @@
+.section-padding {
+    padding: 77px 0;
+}
+
+
+/* Carousel Start */
+
+.carousel-item {
+    height: 100vh;
+    min-height: 300px;
+}
+
+.slider .carousel-caption {
+    bottom: 370px;
+    z-index: 2;
+}
+
+.carousel-caption h5 {
+    font-size: 55px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    color: #FFC700;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.9);
+}
+
+.carousel-caption p {
+    width: 60%;
+    margin: auto;
+    font-size: 18px;
+    line-height: 1.9;
+    color: #FFC700;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.9);
+}
+
+.carousel-inner:before {
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background: rgba(0, 0, 0, 0.2);
+    z-index: 1;
+}
+
+
+/* Carousel End */
+
+
+/* Button Start */
+
+.btn-started {
+    padding: 7px 10px;
+    font-size: 14px;
+    background-color: #FFC700;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.btn-started:hover {
+    background-color: #daad0d;
+}
+
+.to-top {
+    background: rgba(0, 0, 0, 0.4);
+    position: fixed;
+    bottom: 16px;
+    right: 20px;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    font-size: 25px;
+    opacity: 0;
+    pointer-events: none;
+    transition: all .4s;
+}
+
+.to-top.active {
+    bottom: 32px;
+    pointer-events: auto;
+    opacity: 1;
+}
+
+
+/* Button End */
+
+
+/* Footer Start */
+
+footer {
+    background-color: #582e2e;
+    color: white;
+}
+
+.single-box p {
+    line-height: 1.9;
+}
+
+.single-box ul li a {
+    line-height: 2;
+    font-weight: 100;
+}
+
+.single-box h2 {
+    font-size: 25px;
+    font-weight: 600;
+}
+
+.socials .fa {
+    font-size: 20px;
+    margin: 7px 20px 0 0;
+    color: white;
+}
+
+.socials .fa:hover {
+    font-size: 20px;
+    scale: 1.2;
+}
+
+
+/* Button End */
+
+.position-absolute {
+    position: absolute;
+}
+
+.top-50 {
+    top: 50%;
+}
+
+.start-50 {
+    left: 50%;
+}
+
+.translate-middle {
+    transform: translate(-50%, -50%);
+}
